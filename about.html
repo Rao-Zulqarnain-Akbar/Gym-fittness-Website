@@ -10,25 +10,36 @@
 <body class="bg-gray-100">
 
     <nav class="bg-white shadow-md">
-        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-            <h1 class="text-2xl font-bold text-purple-600">
-                FitZone
-            </h1>
+        <h1 class="text-2xl font-bold text-purple-600">
+            FitZone
+        </h1>
 
-            <ul class="md:flex gap-8 font-medium">
+        <ul class="hidden md:flex gap-8 font-medium">
+            <li><a href="index.html" class="text-purple-600">Home</a></li>
+            <li><a href="about.html" class="hover:text-purple-600">About</a></li>
+            <li><a href="service.html" class="hover:text-purple-600">Services</a></li>
+            <li><a href="trainer.html" class="hover:text-purple-600">Trainers</a></li>
+            <li><a href="contact.html" class="hover:text-purple-600">Contact</a></li>
+        </ul>
+
+        <details class="md:hidden">
+            <summary class="list-none cursor-pointer text-3xl">
+                ☰
+            </summary>
+
+            <ul class="absolute right-6 mt-3 w-40 bg-white shadow-lg rounded-lg p-4 flex flex-col gap-3">
                 <li><a href="index.html" class="hover:text-purple-600">Home</a></li>
-                <li><a href="about.html" class="text-purple-600">About</a></li>
+                <li><a href="about.html" class="hover:text-purple-600">About</a></li>
                 <li><a href="service.html" class="hover:text-purple-600">Services</a></li>
                 <li><a href="trainer.html" class="hover:text-purple-600">Trainers</a></li>
                 <li><a href="contact.html" class="hover:text-purple-600">Contact</a></li>
-
             </ul>
+        </details>
 
-
-        </div>
-    </nav>
-
+    </div>
+</nav>
     <section class="max-w-6xl mx-auto px-6 py-20">
 
         <div class="grid md:grid-cols-2 gap-10 items-center">
